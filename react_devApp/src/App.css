@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+section{
+    min-height: 100vh;
+    padding: 5rem;
+}
+
+
+.upper_main{
+    height: 90vh;
+    background: url('./images/pic.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+
+.sm{
+    font-size: 2.5rem;
+}
+.text{
+   padding: 3rem 0;
+}
+
+.work_section{
+    font-size: 3.5rem;   
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: #fff;
+}
+.work_section span{
+    font-size: 6rem;
+}
+
+.card_section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 6rem 4rem;
+}
+
+.card_work{
+    width: 320px;
+    height: 450px;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    margin-left: 15px;
+    border-radius: 10px;
+}
+
+.card_work img{
+    width: 100%;
+}
+
+.content{
+    padding: 8px 14px;
+}
+
+.val1{
+    padding: 10px 0px;
+}
+
+.card_work h1{
+    padding-top: 10px;
+}
+
+
+
+.more_various_section{
+    display: flex;
+}
+
+.contact{
+    width: 40vw;
+    padding: 1.6rem 6rem;
+    background-color: green;
+    color: #fff;
+    height: 35vh;
+}
+
+
+.contact h1{
+    margin-bottom: 10px;
+    font-size: 3rem;
+}
+
+.about{
+    width: 50vw;
+    padding: 1rem 3rem;
+    background-color: #722300;
+    color: #fff;
+}
+.about h1{
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.footer{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+}
